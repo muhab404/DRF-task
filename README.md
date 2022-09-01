@@ -35,45 +35,9 @@ python3 manage.py runserver
 
 # Endpoints
 
-## 1. Registration
 
 
- ``` diff 
- + http://127.0.0.1:8000/user/register/
- ```
-- response
-  
-  ```json
-  [
-      {
-          "username": "admin",
-          "password": "pbkdf2_sha256$320000$Bhf503wIWT4EhqvwYX56xA$20iLsvSCT1nNIqbTUqI27P+Ds871x3v0+U7mxAk/Ou0=",
-          "email": "admin@admin.com"
-      },
-      {
-          "username": "gihyjukiby",
-          "password": "Vero ducimus nostru",
-          "email": "dezo@mailinator.com"
-      },
-      {
-          "username": "megynupi",
-          "password": "pbkdf2_sha256$320000$Zf6bN7OqBxfZcSrrSisIG7$SjopuaBrJyFNadD6S+6QQEJ14KRaDFIsDujcGcoJBdA=",
-          "email": "xaxulujaxo@mailinator.com"
-      },
-      {
-          "username": "zehiqejef",
-          "password": "pbkdf2_sha256$320000$qK52DICq0Sj5ofWIoqwQgn$KS5aHqrah5oQq8urs2JNZT234ZAuu+Vhc9H7qGaKUQU=",
-          "email": "myfymecahy@mailinator.com"
-      }
-  ]
-  ```
-  
-</details>
-
-![image]()
-
-
-### 1.2 register POST
+### 1 register POST
 
  ``` diff 
  + http://127.0.0.1:8000/api/register/
@@ -103,10 +67,10 @@ python3 manage.py runserver
 
  
 
-### 1.3 login POST
+### 2. login POST
 
  ``` diff 
- ! http://127.0.0.1:8000/user/login
+ ! http://127.0.0.1:8000/api/login
  ```
 - body
   ```json
