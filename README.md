@@ -22,10 +22,9 @@
 
 
 ## 3. Migration Requirements
-1. start postgres service by run this `service postgres start`
-2. cd into repo root folder
-3. active your venv (if you have)
-4. run this commands 
+1. cd into repo root folder
+2. active your venv (if you have)
+3. run this commands 
 ```bash
 python3 manage.py makemigrations
 python3 manage.py migrate
