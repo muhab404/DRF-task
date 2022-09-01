@@ -175,30 +175,8 @@ python3 manage.py runserver
 
 
 ### 4. add product POST
-
- ``` diff 
- ! http://127.0.0.1:8000/product/list/
- ```
-- body
-  ```json
-  {
-      "name":"oranges",
-      "seller": 2,
-      "price":500
-  }
-  ```
-
-- response
-  ```json
-  {
-      "id": 6,
-      "name": "oranges",
-      "price": 500.0,
-      "seller": 2
-  }
-  ```
   
-  ![image]()
+  ![image](photos/3.1.png)
 
   
 
